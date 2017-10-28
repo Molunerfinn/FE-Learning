@@ -1,0 +1,35 @@
+{
+  "name": "fe-learning",
+  "version": "1.0.0",
+  "description": "## 目录说明",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -r ts-node/register ./test/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Molunerfinn/FE-Learning.git"
+  },
+  "keywords": [
+    "learn"
+  ],
+  "author": "Molunerfinn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Molunerfinn/FE-Learning/issues"
+  },
+  "homepage": "https://github.com/Molunerfinn/FE-Learning#readme",
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "@types/chai": "^4.0.4",
+    "@types/mocha": "^2.2.44",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.8.0",
+    "tslint-config-standard": "^7.0.0"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "typescript": "^2.5.3"
+  }
+}
