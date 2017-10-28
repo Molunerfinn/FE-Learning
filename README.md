@@ -1,8 +1,16 @@
-# 这是一个记录我学习es6的仓库
+# 这是一个记录我学习前端、算法等基础的仓库
 
 ## 目录说明
 
-* es6tutorial
+### algorithm
+
+算法练习目录。用typescript来写，练习算法的同时，同时练习typescript、前端测试（mocha）。
+
+### test
+
+测试目录，用于执行代码测试。
+
+### es6tutorial
 
 这个目录下的两个文件：`ECMAScript 6入门.epub`是阮一峰老师的[ECMAScript 6入门](http://es6.ruanyifeng.com/)的离线电子版。已经经过相应的修改。
 
