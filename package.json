@@ -4,7 +4,9 @@
   "description": "## 目录说明",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha -r ts-node/register ./test/*.spec.ts"
+    "test:unit": "mocha -r ts-node/register ./test/*.spec.ts",
+    "test": "nyc -e '.ts' -r lcov npm run test:unit",
+    "coverage": "cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -20,16 +22,36 @@
   },
   "homepage": "https://github.com/Molunerfinn/FE-Learning#readme",
   "devDependencies": {
-    "eslint": "^4.9.0",
     "@types/chai": "^4.0.4",
     "@types/mocha": "^2.2.44",
+    "eslint": "^4.9.0",
     "ts-node": "^3.3.0",
     "tslint": "^5.8.0",
     "tslint-config-standard": "^7.0.0"
   },
   "dependencies": {
     "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
     "mocha": "^4.0.1",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nyc": "^11.2.1",
+    "source-map-support": "^0.5.0",
     "typescript": "^2.5.3"
+  },
+  "nyc": {
+    "include": [
+      "algorithm/**/*.ts"
+    ],
+    "extension": [
+      ".ts",
+      ".tsx"
+    ],
+    "exclude": [
+      "**/*.d.ts"
+    ],
+    "reporter": [
+      "text-lcov"
+    ],
+    "all": true
   }
 }

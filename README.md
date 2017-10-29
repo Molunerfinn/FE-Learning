@@ -1,5 +1,7 @@
 # 这是一个记录我学习前端、算法等基础的仓库
 
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-green.svg?style=flat-square)](https://github.com/feross/standard)
+
 ## 目录说明
 
 ### algorithm
