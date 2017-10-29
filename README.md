@@ -1,8 +1,13 @@
 # 这是一个记录我学习前端、算法等基础的仓库
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-green.svg?style=flat-square)](https://github.com/feross/standard)
-
-[![Coverage Status](https://coveralls.io/repos/github/Molunerfinn/FE-Learning/badge.svg?branch=master)](https://coveralls.io/github/Molunerfinn/FE-Learning?branch=master)
+<p align="center">
+  <a href="https://github.com/feross/standard">
+    <img src="https://img.shields.io/badge/code%20style-standard-green.svg?style=flat-square" alt="">
+  </a>
+  <a href="https://coveralls.io/github/Molunerfinn/FE-Learning?branch=master">
+    <img src="https://coveralls.io/repos/github/Molunerfinn/FE-Learning/badge.svg?branch=master" alt="">
+  </a>
+</p>
 
 ## 目录说明
 
