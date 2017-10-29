@@ -2,6 +2,8 @@
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-green.svg?style=flat-square)](https://github.com/feross/standard)
 
+[![Coverage Status](https://coveralls.io/repos/github/Molunerfinn/FE-Learning/badge.svg?branch=master)](https://coveralls.io/github/Molunerfinn/FE-Learning?branch=master)
+
 ## 目录说明
 
 ### algorithm
