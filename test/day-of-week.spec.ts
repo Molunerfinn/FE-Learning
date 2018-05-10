@@ -10,7 +10,7 @@ test('Should return Tuesday when inputing 20170103', () => {
   expect(result).toBe('Tuesday')
 })
 
-test('Should return Wednesday when inputing 20171101', () => {
-  let result = dayOfWeek('20171101')
+test('Should return Wednesday when inputing 20301106', () => {
+  let result = dayOfWeek('20301106')
   expect(result).toBe('Wednesday')
 })
