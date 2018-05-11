@@ -2,7 +2,6 @@
   "compilerOptions": {
     "module": "commonjs",
     "sourceMap": true,
-    "target": "es6",
-    "isolatedModules": true
+    "target": "es6"
   }
 }

@@ -4,7 +4,6 @@
     "module": "commonjs",
     "sourceMap": true,
     "target": "es6",
-    "isolatedModules": true,
     "types": [
       "mocha",
       "chai",
