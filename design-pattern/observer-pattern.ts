@@ -9,7 +9,7 @@ class Observer {
   }
   notify () {
     console.log(`This ${this.subject} was fired!`)
-    this.subject = `${this.subject} is done`
+    this.subject = `Done`
   }
 }
 
@@ -17,6 +17,7 @@ class Subject {
   subjects: Subjects = {}
   // subscribe
   add (subject, observer: Observer): void {
+    /* istanbul ignore next */
     if (!this.subjects[subject]) {
       this.subjects[subject] = []
     }
@@ -25,6 +26,7 @@ class Subject {
   // unsubscribe
   remove (subject, observer: Observer): void {
     this.subjects[subject].forEach((item, index) => {
+      /* istanbul ignore next */
       if (item === observer) {
         this.subjects[subject].splice(index, 1)
       }
